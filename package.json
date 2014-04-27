@@ -26,6 +26,7 @@
     "url": "https://github.com/surgeforward/MLearn.js/issues"
   },
   "dependencies": {
+    "JASON": "^0.1.3",
     "async": "^0.7.0",
     "csv": "~0.3.7",
     "lodash": "~2.4.1",
