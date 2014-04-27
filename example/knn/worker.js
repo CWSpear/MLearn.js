@@ -310,7 +310,7 @@ var theWorkerDude = function (options) {
                 result = fn.apply(null, args);
             } catch (e) {
                 console.log(e.stack);
-                postMessage({ error: e.stack });
+                postMessage({ error: e.stack, closing: true });
             }
             postMessage({ result: result, closing: true });
             self.close();
